@@ -1,0 +1,29 @@
+========================================
+HONEYPOT SECURITY ANALYSIS REPORT
+========================================
+Generated at: 2026-03-16 10:43:18
+Total Events: 500
+Connections: 106
+Login Attempts: 190 (Success: 87, Failed: 103)
+Unique Attacking IPs: 20
+
+Top 5 Attacking IPs:
+  192.168.1.33: 34
+  192.168.1.76: 30
+  192.168.1.235: 30
+  192.168.1.44: 28
+  192.168.1.207: 28
+
+Top 5 Usernames Used:
+  admin: 42
+  oracle: 37
+  pi: 35
+  root: 29
+  support: 24
+
+Top 5 Commands Executed:
+  uname -a: 24
+  cd /tmp: 21
+  chmod +x payload.sh: 20
+  ./payload.sh: 19
+  ls -la: 12
