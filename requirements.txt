@@ -1,0 +1,5 @@
+flask
+paramiko
+cryptography
+requests
+gunicorn
